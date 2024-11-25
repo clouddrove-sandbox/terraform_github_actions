@@ -6,7 +6,7 @@ on:
     branches: [ main, master ]
     paths:
       - '*.tf'
-      - '.github/workflows/tf.yml'
+      - '.github/workflows/terraform_action.yml'
   pull_request:
     branches: [ main, master ]
     paths:
