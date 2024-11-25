@@ -16,7 +16,7 @@ on:
       destroy:
         type: boolean
         description: 'Destroy infrastructure'
-        default: false
+        default: true
       environment:
         type: choice
         description: 'Select environment'
